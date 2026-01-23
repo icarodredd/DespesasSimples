@@ -2,7 +2,7 @@ import { ExpenseCard } from './ExpenseCard';
 import { EmptyState } from './EmptyState';
 import type { Expense } from '../types/expense';
 
-interface ExpenseListProps {
+export interface ExpenseListProps {
   expenses: Expense[];
   onEdit: (expense: Expense) => void;
   onDelete: (id: string) => void;
@@ -10,11 +10,11 @@ interface ExpenseListProps {
 
 export function ExpenseList({ expenses, onEdit, onDelete }: ExpenseListProps) {
   if (expenses.length === 0) {
-    return <EmptyState message="Nenhuma despesa registrada ainda" />;
+    return <EmptyState message='Nenhuma despesa registrada ainda' />;
   }
 
   return (
-    <div className="space-y-3">
+    <div className='space-y-3'>
       {expenses.map((expense) => (
         <ExpenseCard
           key={expense.id}
