@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { cleanup, render, screen } from '@testing-library/react';
 import { ExpenseCard } from './ExpenseCard';
 import { Expense } from '../types/expense';
 import userEvent from '@testing-library/user-event';
@@ -106,6 +106,8 @@ describe('ExpenseCard', () => {
   });
 
   it('should not render description when it is empty', () => {
+    cleanup();
+
     const expenseWithoutDescription: Expense = {
       ...mockedExpense,
       description: '',
