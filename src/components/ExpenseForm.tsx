@@ -8,7 +8,7 @@ interface ExpenseFormProps {
   expense?: Expense | null;
 }
 
-const CATEGORIES = [
+export const CATEGORIES = [
   'Alimentação',
   'Transporte',
   'Moradia',
