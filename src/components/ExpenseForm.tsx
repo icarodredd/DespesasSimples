@@ -123,6 +123,7 @@ export function ExpenseForm({ onSubmit, onClose, expense }: ExpenseFormProps) {
               Descrição (opcional)
             </label>
             <input
+              data-testid='description-input'
               type='text'
               value={formData.description}
               onChange={(e) =>
