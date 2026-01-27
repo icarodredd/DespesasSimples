@@ -84,6 +84,7 @@ export function ExpenseForm({ onSubmit, onClose, expense }: ExpenseFormProps) {
             </label>
             <input
               type='text'
+              data-testid='amount-input'
               inputMode='numeric'
               value={formatAmountDisplay(formData.amount)}
               onChange={handleAmountChange}
