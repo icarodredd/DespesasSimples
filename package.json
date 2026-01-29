@@ -47,6 +47,8 @@
     "vaul": "^1.1.2"
   },
   "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@cypress/schematic": "^5.0.0",
     "@cypress/webpack-dev-server": "^5.6.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
