@@ -1,7 +1,7 @@
 # Despesas Simples
 
-[![Build](https://img.shields.io/github/actions/workflow/status/icarodredd/DespesasSimples/ci.yml?branch=main&style=flat-square)](https://github.com/icarodredd/DespesasSimples/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/icarodredd/DespesasSimples?style=flat-square)](https://codecov.io/gh/icarodredd/DespesasSimples)
+[![Build](https://img.shields.io/github/actions/workflow/status/icarodredd/DespesasSimples/node.js.yml?branch=main&style=flat-square)](https://github.com/icarodredd/DespesasSimples/actions)
+[![Coverage](https://img.shields.io/badge/coverage-96%25-22c55e?style=flat-square)](https://github.com/icarodredd/DespesasSimples/actions)
 [![License](https://img.shields.io/github/license/icarodredd/DespesasSimples?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/icarodredd/DespesasSimples?style=flat-square)](https://github.com/icarodredd/DespesasSimples/stargazers)
 
